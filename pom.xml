@@ -63,6 +63,13 @@
             <artifactId>javafx-media</artifactId>
             <version>11.0.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-swing -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>11.0.1</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.daisy.pipeline.modules/tts-common -->
         <dependency>
             <groupId>org.daisy.pipeline.modules</groupId>
@@ -78,6 +85,11 @@
             <groupId>edu.cmu.sphinx</groupId>
             <artifactId>sphinx4-data</artifactId>
             <version>5prealpha-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
         </dependency>
     </dependencies>
 
